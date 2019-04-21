@@ -1,5 +1,5 @@
 Sub 合并工作薄()
-    
+'   只合并多个工作表中的sheet（1）
     Dim SummarySheet As Worksheet
     Dim SelectedFiles() As Variant
     Dim Nrow As Long
