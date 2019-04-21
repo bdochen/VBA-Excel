@@ -43,4 +43,5 @@ Sub 工作表汇总_首行有表头()
     Next
     DestSheet.Columns.AutoFit
     DestSheet.Select
+    ActiveWorkbook.Save
 End Sub
