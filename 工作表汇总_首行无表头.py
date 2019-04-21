@@ -25,5 +25,6 @@ Sub 工作表汇总()
          End If
     Next
     DestSheet.Columns.AutoFit
+    DestSheet.Select
     ActiveWorkbook.Save
 End Sub
