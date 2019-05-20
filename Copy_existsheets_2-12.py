@@ -7,3 +7,16 @@ Sub 复制2至12月的11张工作表()
     Next
     ActiveWorkbook.Save
 End Sub
+
+
+
+Sub 复制2至19日的工作表()
+
+    Dim i As Long
+    For i = 2 To 19
+        ActiveSheet.Copy after:=ActiveSheet
+        ActiveSheet.Name = i
+    Next
+    ActiveWorkbook.Save
+End Sub
+
