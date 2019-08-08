@@ -39,7 +39,8 @@ Sub 复制行中有指定数值的行()
   a.EntireColumn.Select
   Selection.copy
   DestSheet.Activate
-  Range(firstAddress).Select
+  '这下选择单元格未生效，原因不明
+  'Range(firstAddress).Select
   ActiveSheet.Paste
   'ActiveWorkbook.Save
 End Sub
